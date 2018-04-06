@@ -13,7 +13,7 @@ public class BasicExceptions {
 			if(no>0)System.out.print("\nNumber accepted.");
 			else
 				throw new Exception("Number should not be negative");			
-		}catch(Exception e){System.out.print(e);}
+		}catch(Exception e){e.printStackTrace();}
 		System.out.print("\n"+no);
 	}
 }
